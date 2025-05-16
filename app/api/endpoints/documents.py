@@ -15,7 +15,7 @@ router = APIRouter()
 @router.post("/upload", response_model=DocumentProcessResponse)
 async def upload_document(file: UploadFile = File(...)):
     """
-    Upload a Word document (.docx) to be processed and stored in Firestore.
+    Upload a document (PDF or DOCX) to be processed and stored in Firestore.
 
     The API extracts text, tables, and structure from the document and
     stores the extracted data in Firestore.

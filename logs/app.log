@@ -19,3 +19,299 @@
 2025-05-16 13:48:16 - doc_processor - ERROR - Document processing error: Failed to process document: Failed to extract data from document: "There is no item named '[Content_Types].xml' in the archive"
 2025-05-16 13:49:18 - doc_processor - INFO - Processing document: Welcome Onboard Hilo Aviation!.docx
 2025-05-16 13:49:22 - doc_processor - INFO - Document saved to Firestore with ID: a6c172f9-3b5c-4601-adca-96511ef6afe5
+2025-05-16 14:27:25 - doc_processor - INFO - Shutting down application...
+2025-05-16 14:27:25 - doc_processor - INFO - Application shutdown completed
+2025-05-16 14:27:26 - doc_processor - INFO - Starting application...
+2025-05-16 14:27:26 - doc_processor - ERROR - Error initializing Firebase: Expecting value: line 1 column 1 (char 0)
+2025-05-16 14:27:43 - doc_processor - INFO - Starting application...
+2025-05-16 14:27:43 - doc_processor - ERROR - Error initializing Firebase: Expecting value: line 1 column 1 (char 0)
+2025-05-16 14:52:52 - doc_processor - INFO - Starting application...
+2025-05-16 14:52:52 - doc_processor - ERROR - Error initializing Firebase: Expecting value: line 1 column 1 (char 0)
+2025-05-16 14:53:46 - doc_processor - INFO - Starting application...
+2025-05-16 14:53:46 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 14:53:46 - doc_processor - INFO - Application started successfully
+2025-05-16 14:56:50 - doc_processor - INFO - Shutting down application...
+2025-05-16 14:56:50 - doc_processor - INFO - Application shutdown completed
+2025-05-16 14:56:51 - doc_processor - INFO - Starting application...
+2025-05-16 14:56:51 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 14:56:51 - doc_processor - INFO - Application started successfully
+2025-05-16 14:59:46 - doc_processor - INFO - Shutting down application...
+2025-05-16 14:59:46 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:04:14 - doc_processor - INFO - Starting application...
+2025-05-16 15:04:14 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:04:14 - doc_processor - INFO - Application started successfully
+2025-05-16 15:05:49 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:05:49 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:05:50 - doc_processor - INFO - Starting application...
+2025-05-16 15:05:50 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:05:50 - doc_processor - INFO - Application started successfully
+2025-05-16 15:06:07 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:06:07 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:06:08 - doc_processor - INFO - Starting application...
+2025-05-16 15:06:08 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:06:08 - doc_processor - INFO - Application started successfully
+2025-05-16 15:06:10 - doc_processor - INFO - Processing document: b5bb0f0c-abcc-4e34-b083-693cf0ebee20.docx
+2025-05-16 15:06:15 - doc_processor - ERROR - Error saving document to Firestore: 400 Property content contains an invalid nested entity.
+2025-05-16 15:06:15 - doc_processor - ERROR - Error processing document: 400 Property content contains an invalid nested entity.
+2025-05-16 15:06:15 - doc_processor - ERROR - Document processing error: Failed to process document: 400 Property content contains an invalid nested entity.
+2025-05-16 15:06:23 - doc_processor - INFO - Processing document: b5bb0f0c-abcc-4e34-b083-693cf0ebee20.docx
+2025-05-16 15:06:26 - doc_processor - ERROR - Error saving document to Firestore: 400 Property content contains an invalid nested entity.
+2025-05-16 15:06:26 - doc_processor - ERROR - Error processing document: 400 Property content contains an invalid nested entity.
+2025-05-16 15:06:26 - doc_processor - ERROR - Document processing error: Failed to process document: 400 Property content contains an invalid nested entity.
+2025-05-16 15:19:32 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:19:32 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:21:41 - doc_processor - INFO - Starting application...
+2025-05-16 15:21:41 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:21:41 - doc_processor - INFO - Application started successfully
+2025-05-16 15:21:57 - doc_processor - INFO - Processing document: b5bb0f0c-abcc-4e34-b083-693cf0ebee20.docx
+2025-05-16 15:22:03 - doc_processor - ERROR - Error saving document to Firestore: 400 Property content contains an invalid nested entity.
+2025-05-16 15:22:03 - doc_processor - ERROR - Error processing document: 400 Property content contains an invalid nested entity.
+2025-05-16 15:22:03 - doc_processor - ERROR - Document processing error: Failed to process document: 400 Property content contains an invalid nested entity.
+2025-05-16 15:22:33 - doc_processor - INFO - Processing document: Private Pilot Certificate - Stage 1 (1).docx
+2025-05-16 15:22:37 - doc_processor - ERROR - Error saving document to Firestore: 400 Property content contains an invalid nested entity.
+2025-05-16 15:22:37 - doc_processor - ERROR - Error processing document: 400 Property content contains an invalid nested entity.
+2025-05-16 15:22:37 - doc_processor - ERROR - Document processing error: Failed to process document: 400 Property content contains an invalid nested entity.
+2025-05-16 15:24:10 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:24:10 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:24:10 - doc_processor - INFO - Starting application...
+2025-05-16 15:24:10 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:24:10 - doc_processor - INFO - Application started successfully
+2025-05-16 15:24:12 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:24:12 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:24:12 - doc_processor - INFO - Starting application...
+2025-05-16 15:24:12 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:24:12 - doc_processor - INFO - Application started successfully
+2025-05-16 15:24:29 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:24:29 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:24:30 - doc_processor - INFO - Starting application...
+2025-05-16 15:24:30 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:24:30 - doc_processor - INFO - Application started successfully
+2025-05-16 15:24:32 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:24:32 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:24:33 - doc_processor - INFO - Starting application...
+2025-05-16 15:24:33 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:24:33 - doc_processor - INFO - Application started successfully
+2025-05-16 15:24:37 - doc_processor - INFO - Processing document: Private Pilot Certificate - Stage 1 (1).docx
+2025-05-16 15:24:42 - doc_processor - ERROR - Error saving document to Firestore: 400 Property content contains an invalid nested entity.
+2025-05-16 15:24:42 - doc_processor - ERROR - Error processing document: 400 Property content contains an invalid nested entity.
+2025-05-16 15:24:42 - doc_processor - ERROR - Document processing error: Failed to process document: 400 Property content contains an invalid nested entity.
+2025-05-16 15:27:02 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:27:02 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:27:31 - doc_processor - INFO - Starting application...
+2025-05-16 15:27:31 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:27:31 - doc_processor - INFO - Application started successfully
+2025-05-16 15:27:32 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:27:32 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:27:33 - doc_processor - INFO - Starting application...
+2025-05-16 15:27:33 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:27:33 - doc_processor - INFO - Application started successfully
+2025-05-16 15:27:40 - doc_processor - INFO - Processing document: Private Pilot Certificate - Stage 1 (1).docx
+2025-05-16 15:27:43 - doc_processor - INFO - Document metadata saved to Firestore with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20
+2025-05-16 15:27:44 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_pages_0
+2025-05-16 15:27:45 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_0
+2025-05-16 15:27:46 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_1
+2025-05-16 15:27:46 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_2
+2025-05-16 15:27:47 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_3
+2025-05-16 15:27:48 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_4
+2025-05-16 15:27:49 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_5
+2025-05-16 15:27:49 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_6
+2025-05-16 15:27:50 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_7
+2025-05-16 15:27:51 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_8
+2025-05-16 15:27:52 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_9
+2025-05-16 15:27:52 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_10
+2025-05-16 15:27:53 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_11
+2025-05-16 15:27:54 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_12
+2025-05-16 15:27:55 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_13
+2025-05-16 15:27:55 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_14
+2025-05-16 15:27:56 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_15
+2025-05-16 15:27:57 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_16
+2025-05-16 15:27:58 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_17
+2025-05-16 15:27:58 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_18
+2025-05-16 15:27:59 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_19
+2025-05-16 15:27:59 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_20
+2025-05-16 15:28:00 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_21
+2025-05-16 15:28:01 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_paragraphs_22
+2025-05-16 15:28:02 - doc_processor - INFO - Document chunk saved with ID: 2a1e86cc-5e12-4bd4-986b-106a11c6de20_headers
+2025-05-16 15:28:03 - doc_processor - ERROR - Error saving document chunk to Firestore: 400 Property array contains an invalid nested entity.
+2025-05-16 15:28:03 - doc_processor - ERROR - Error processing document: 400 Property array contains an invalid nested entity.
+2025-05-16 15:28:03 - doc_processor - ERROR - Document processing error: Failed to process document: 400 Property array contains an invalid nested entity.
+2025-05-16 15:30:35 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:30:35 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:30:36 - doc_processor - INFO - Starting application...
+2025-05-16 15:30:36 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:30:36 - doc_processor - INFO - Application started successfully
+2025-05-16 15:30:41 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:30:41 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:30:41 - doc_processor - INFO - Starting application...
+2025-05-16 15:30:41 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:30:41 - doc_processor - INFO - Application started successfully
+2025-05-16 15:30:45 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:30:45 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:30:45 - doc_processor - INFO - Starting application...
+2025-05-16 15:30:45 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:30:45 - doc_processor - INFO - Application started successfully
+2025-05-16 15:30:53 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:30:53 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:30:54 - doc_processor - INFO - Starting application...
+2025-05-16 15:30:54 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:30:54 - doc_processor - INFO - Application started successfully
+2025-05-16 15:30:57 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:30:57 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:30:57 - doc_processor - INFO - Starting application...
+2025-05-16 15:30:58 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:30:58 - doc_processor - INFO - Application started successfully
+2025-05-16 15:30:58 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:30:58 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:30:59 - doc_processor - INFO - Starting application...
+2025-05-16 15:30:59 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:30:59 - doc_processor - INFO - Application started successfully
+2025-05-16 15:31:10 - doc_processor - INFO - Processing document: Private Pilot Certificate - Stage 1 (1).docx
+2025-05-16 15:31:13 - doc_processor - INFO - Document metadata saved to Firestore with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704
+2025-05-16 15:31:15 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_pages_0
+2025-05-16 15:31:15 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_0
+2025-05-16 15:31:16 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_1
+2025-05-16 15:31:17 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_2
+2025-05-16 15:31:18 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_3
+2025-05-16 15:31:18 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_4
+2025-05-16 15:31:19 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_5
+2025-05-16 15:31:20 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_6
+2025-05-16 15:31:21 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_7
+2025-05-16 15:31:21 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_8
+2025-05-16 15:31:22 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_9
+2025-05-16 15:31:22 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_10
+2025-05-16 15:31:24 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_11
+2025-05-16 15:31:24 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_12
+2025-05-16 15:31:25 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_13
+2025-05-16 15:31:25 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_14
+2025-05-16 15:31:27 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_15
+2025-05-16 15:31:27 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_16
+2025-05-16 15:31:28 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_17
+2025-05-16 15:31:28 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_18
+2025-05-16 15:31:29 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_19
+2025-05-16 15:31:30 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_20
+2025-05-16 15:31:31 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_21
+2025-05-16 15:31:31 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_paragraphs_22
+2025-05-16 15:31:32 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_headers
+2025-05-16 15:31:33 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_tables_0
+2025-05-16 15:31:34 - doc_processor - INFO - Document chunk saved with ID: 23c6a8a7-fb83-455e-ad8e-43b9e836d704_tables_1
+2025-05-16 15:35:20 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:35:20 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:35:20 - doc_processor - INFO - Starting application...
+2025-05-16 15:35:20 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:35:20 - doc_processor - INFO - Application started successfully
+2025-05-16 15:35:33 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:35:33 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:35:34 - doc_processor - INFO - Starting application...
+2025-05-16 15:35:34 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:35:34 - doc_processor - INFO - Application started successfully
+2025-05-16 15:35:44 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:35:44 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:35:45 - doc_processor - INFO - Starting application...
+2025-05-16 15:35:45 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:35:45 - doc_processor - INFO - Application started successfully
+2025-05-16 15:35:48 - doc_processor - INFO - Processing document: Private Pilot Certificate - Stage 1 (1).docx
+2025-05-16 15:35:52 - doc_processor - INFO - Document metadata saved to Firestore with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f
+2025-05-16 15:35:53 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_pages_0
+2025-05-16 15:35:53 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_0
+2025-05-16 15:35:54 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_1
+2025-05-16 15:35:55 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_2
+2025-05-16 15:35:56 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_3
+2025-05-16 15:35:56 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_4
+2025-05-16 15:35:57 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_5
+2025-05-16 15:35:58 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_6
+2025-05-16 15:35:59 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_7
+2025-05-16 15:35:59 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_8
+2025-05-16 15:36:00 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_9
+2025-05-16 15:36:01 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_10
+2025-05-16 15:36:02 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_11
+2025-05-16 15:36:02 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_12
+2025-05-16 15:36:03 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_13
+2025-05-16 15:36:04 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_14
+2025-05-16 15:36:05 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_15
+2025-05-16 15:36:05 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_16
+2025-05-16 15:36:06 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_17
+2025-05-16 15:36:07 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_18
+2025-05-16 15:36:08 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_19
+2025-05-16 15:36:08 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_20
+2025-05-16 15:36:09 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_21
+2025-05-16 15:36:10 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_paragraphs_22
+2025-05-16 15:36:11 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_headers_0
+2025-05-16 15:36:11 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_tables_0
+2025-05-16 15:36:12 - doc_processor - INFO - Document chunk saved with ID: ae40d2c8-a7eb-40a9-b948-b43ce9635b0f_tables_1
+2025-05-16 15:37:25 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:37:25 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:37:25 - doc_processor - INFO - Starting application...
+2025-05-16 15:37:26 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:37:26 - doc_processor - INFO - Application started successfully
+2025-05-16 15:37:28 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:37:28 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:37:28 - doc_processor - INFO - Starting application...
+2025-05-16 15:37:28 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 15:37:28 - doc_processor - INFO - Application started successfully
+2025-05-16 15:41:08 - doc_processor - INFO - Processing document: b5bb0f0c-abcc-4e34-b083-693cf0ebee20.docx
+2025-05-16 15:41:10 - doc_processor - INFO - Document metadata saved to Firestore with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc
+2025-05-16 15:41:12 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_pages_0
+2025-05-16 15:41:12 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_0
+2025-05-16 15:41:13 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_1
+2025-05-16 15:41:14 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_2
+2025-05-16 15:41:15 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_3
+2025-05-16 15:41:15 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_4
+2025-05-16 15:41:16 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_5
+2025-05-16 15:41:17 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_6
+2025-05-16 15:41:18 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_7
+2025-05-16 15:41:18 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_8
+2025-05-16 15:41:19 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_9
+2025-05-16 15:41:20 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_10
+2025-05-16 15:41:21 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_11
+2025-05-16 15:41:21 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_12
+2025-05-16 15:41:22 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_13
+2025-05-16 15:41:23 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_14
+2025-05-16 15:41:24 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_15
+2025-05-16 15:41:24 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_16
+2025-05-16 15:41:25 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_17
+2025-05-16 15:41:26 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_18
+2025-05-16 15:41:27 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_19
+2025-05-16 15:41:27 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_20
+2025-05-16 15:41:28 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_21
+2025-05-16 15:41:29 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_paragraphs_22
+2025-05-16 15:41:30 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_headers_0
+2025-05-16 15:41:31 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_tables_0
+2025-05-16 15:41:31 - doc_processor - INFO - Document chunk saved with ID: f381ffd4-7a87-4d8d-9acb-f3fd3f1f8afc_tables_1
+2025-05-16 15:47:12 - doc_processor - INFO - Shutting down application...
+2025-05-16 15:47:12 - doc_processor - INFO - Application shutdown completed
+2025-05-16 15:47:13 - doc_processor - INFO - Starting application...
+2025-05-16 15:47:13 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_STORAGE_BUCKET'
+2025-05-16 15:47:17 - doc_processor - INFO - Starting application...
+2025-05-16 15:47:17 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_STORAGE_BUCKET'
+2025-05-16 15:54:50 - doc_processor - INFO - Starting application...
+2025-05-16 15:54:50 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_STORAGE_BUCKET'
+2025-05-16 15:54:51 - doc_processor - INFO - Starting application...
+2025-05-16 15:54:51 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_STORAGE_BUCKET'
+2025-05-16 15:54:56 - doc_processor - INFO - Starting application...
+2025-05-16 15:54:56 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_STORAGE_BUCKET'
+2025-05-16 15:55:07 - doc_processor - INFO - Starting application...
+2025-05-16 15:55:07 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_STORAGE_BUCKET'
+2025-05-16 15:55:11 - doc_processor - INFO - Starting application...
+2025-05-16 15:55:11 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_STORAGE_BUCKET'
+2025-05-16 15:55:12 - doc_processor - INFO - Starting application...
+2025-05-16 15:55:12 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_STORAGE_BUCKET'
+2025-05-16 15:55:30 - doc_processor - INFO - Starting application...
+2025-05-16 15:55:30 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_STORAGE_BUCKET'
+2025-05-16 15:55:37 - doc_processor - INFO - Starting application...
+2025-05-16 15:55:37 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_STORAGE_BUCKET'
+2025-05-16 15:58:27 - doc_processor - INFO - Starting application...
+2025-05-16 15:58:27 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_CREDENTIALS_PATH'
+2025-05-16 15:58:29 - doc_processor - INFO - Starting application...
+2025-05-16 15:58:29 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_CREDENTIALS_PATH'
+2025-05-16 15:58:54 - doc_processor - INFO - Starting application...
+2025-05-16 15:58:54 - doc_processor - ERROR - Error initializing Firebase: Failed to initialize a certificate credential. Caused by: "Service account info was not in the expected format, missing fields token_uri."
+2025-05-16 15:58:57 - doc_processor - INFO - Starting application...
+2025-05-16 15:58:57 - doc_processor - ERROR - Error initializing Firebase: Failed to initialize a certificate credential. Caused by: "Service account info was not in the expected format, missing fields token_uri."
+2025-05-16 16:01:09 - doc_processor - INFO - Starting application...
+2025-05-16 16:01:09 - doc_processor - ERROR - Error initializing Firebase: Failed to initialize a certificate credential. Caused by: "Service account info was not in the expected format, missing fields token_uri."
+2025-05-16 16:01:53 - doc_processor - INFO - Starting application...
+2025-05-16 16:01:53 - doc_processor - ERROR - Error initializing Firebase: Failed to initialize a certificate credential. Caused by: "Service account info was not in the expected format, missing fields token_uri."
+2025-05-16 16:02:08 - doc_processor - INFO - Starting application...
+2025-05-16 16:02:08 - doc_processor - ERROR - Error initializing Firebase: Failed to initialize a certificate credential. Caused by: "Service account info was not in the expected format, missing fields token_uri."
+2025-05-16 16:03:16 - doc_processor - INFO - Starting application...
+2025-05-16 16:03:16 - doc_processor - ERROR - Error initializing Firebase: Failed to initialize a certificate credential. Caused by: "Service account info was not in the expected format, missing fields token_uri."
