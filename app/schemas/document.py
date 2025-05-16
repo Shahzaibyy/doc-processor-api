@@ -52,9 +52,10 @@ class DocumentProcessResponse(BaseModel):
     status: str
     message: str
     document_id: str
-    storage_url: str
     summary: Dict[str, int]
+    content: Dict[str, List[Dict[str, Any]]]
     content_preview: ContentPreview
+    storage_url: Optional[str] = None
 
 
 class HealthCheckResponse(BaseModel):

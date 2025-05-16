@@ -315,3 +315,148 @@
 2025-05-16 16:02:08 - doc_processor - ERROR - Error initializing Firebase: Failed to initialize a certificate credential. Caused by: "Service account info was not in the expected format, missing fields token_uri."
 2025-05-16 16:03:16 - doc_processor - INFO - Starting application...
 2025-05-16 16:03:16 - doc_processor - ERROR - Error initializing Firebase: Failed to initialize a certificate credential. Caused by: "Service account info was not in the expected format, missing fields token_uri."
+2025-05-16 17:22:33 - doc_processor - INFO - Starting application...
+2025-05-16 17:22:33 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_CREDENTIALS'
+2025-05-16 17:24:20 - doc_processor - INFO - Starting application...
+2025-05-16 17:24:20 - doc_processor - ERROR - Error initializing Firebase: 'Settings' object has no attribute 'FIREBASE_CREDENTIALS'
+2025-05-16 17:32:04 - doc_processor - INFO - Starting application...
+2025-05-16 17:32:04 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:32:04 - doc_processor - INFO - Application started successfully
+2025-05-16 17:32:11 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:32:11 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:32:12 - doc_processor - INFO - Starting application...
+2025-05-16 17:32:12 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:32:12 - doc_processor - INFO - Application started successfully
+2025-05-16 17:33:12 - doc_processor - INFO - Processing document: CiTECH Global - Experience Letter (Shahzaib) (1).pdf
+2025-05-16 17:33:12 - doc_processor - ERROR - Error processing document: Unsupported file type: pdf
+2025-05-16 17:33:12 - doc_processor - ERROR - Document processing error: Failed to process document: Unsupported file type: pdf
+2025-05-16 17:36:09 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:36:09 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:36:10 - doc_processor - INFO - Starting application...
+2025-05-16 17:36:10 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:36:10 - doc_processor - INFO - Application started successfully
+2025-05-16 17:36:14 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:36:14 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:36:14 - doc_processor - INFO - Starting application...
+2025-05-16 17:36:14 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:36:14 - doc_processor - INFO - Application started successfully
+2025-05-16 17:36:31 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:36:31 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:36:31 - doc_processor - INFO - Starting application...
+2025-05-16 17:36:32 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:36:32 - doc_processor - INFO - Application started successfully
+2025-05-16 17:36:36 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:36:36 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:36:36 - doc_processor - INFO - Starting application...
+2025-05-16 17:36:36 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:36:36 - doc_processor - INFO - Application started successfully
+2025-05-16 17:36:42 - doc_processor - INFO - Processing document: CiTECH Global - Experience Letter (Shahzaib) (1).pdf
+2025-05-16 17:36:45 - doc_processor - INFO - Document metadata saved to Firestore with ID: 3befcce4-ed2a-4ccc-a0d8-dce073a3f1ed
+2025-05-16 17:36:45 - doc_processor - INFO - Document chunk saved with ID: 3befcce4-ed2a-4ccc-a0d8-dce073a3f1ed_pages_0
+2025-05-16 17:36:46 - doc_processor - INFO - Document chunk saved with ID: 3befcce4-ed2a-4ccc-a0d8-dce073a3f1ed_paragraphs_0
+2025-05-16 17:36:46 - doc_processor - INFO - Document chunk saved with ID: 3befcce4-ed2a-4ccc-a0d8-dce073a3f1ed_headers_0
+2025-05-16 17:36:46 - doc_processor - ERROR - Error processing document: 1 validation error for DocumentProcessResponse
+storage_url
+  Field required [type=missing, input_value={'status': 'success', 'me...irst_paragraphs=['WK'])}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-05-16 17:36:46 - doc_processor - ERROR - Document processing error: Failed to process document: 1 validation error for DocumentProcessResponse
+storage_url
+  Field required [type=missing, input_value={'status': 'success', 'me...irst_paragraphs=['WK'])}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-05-16 17:38:03 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:38:03 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:38:04 - doc_processor - INFO - Starting application...
+2025-05-16 17:38:04 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:38:04 - doc_processor - INFO - Application started successfully
+2025-05-16 17:38:08 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:38:08 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:38:09 - doc_processor - INFO - Starting application...
+2025-05-16 17:38:09 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:38:09 - doc_processor - INFO - Application started successfully
+2025-05-16 17:38:24 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:38:24 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:38:25 - doc_processor - INFO - Starting application...
+2025-05-16 17:38:25 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:38:25 - doc_processor - INFO - Application started successfully
+2025-05-16 17:38:26 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:38:26 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:38:27 - doc_processor - INFO - Starting application...
+2025-05-16 17:38:27 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:38:27 - doc_processor - INFO - Application started successfully
+2025-05-16 17:38:30 - doc_processor - INFO - Processing document: CiTECH Global - Experience Letter (Shahzaib) (1).pdf
+2025-05-16 17:38:33 - doc_processor - INFO - Document metadata saved to Firestore with ID: a5188775-457f-4c52-a9a7-c37024be641e
+2025-05-16 17:38:33 - doc_processor - INFO - Document chunk saved with ID: a5188775-457f-4c52-a9a7-c37024be641e_pages_0
+2025-05-16 17:38:34 - doc_processor - INFO - Document chunk saved with ID: a5188775-457f-4c52-a9a7-c37024be641e_paragraphs_0
+2025-05-16 17:38:34 - doc_processor - INFO - Document chunk saved with ID: a5188775-457f-4c52-a9a7-c37024be641e_headers_0
+2025-05-16 17:40:09 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:40:09 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:40:10 - doc_processor - INFO - Starting application...
+2025-05-16 17:40:10 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:40:10 - doc_processor - INFO - Application started successfully
+2025-05-16 17:40:11 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:40:11 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:40:12 - doc_processor - INFO - Starting application...
+2025-05-16 17:40:12 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:40:12 - doc_processor - INFO - Application started successfully
+2025-05-16 17:40:21 - doc_processor - INFO - Processing document: CiTECH Global - Experience Letter (Shahzaib) (1).pdf
+2025-05-16 17:40:24 - doc_processor - INFO - Document metadata saved to Firestore with ID: 7e526883-1026-4368-bacf-82d477c5b774
+2025-05-16 17:40:24 - doc_processor - INFO - Document chunk saved with ID: 7e526883-1026-4368-bacf-82d477c5b774_pages_0
+2025-05-16 17:40:25 - doc_processor - INFO - Document chunk saved with ID: 7e526883-1026-4368-bacf-82d477c5b774_paragraphs_0
+2025-05-16 17:40:25 - doc_processor - INFO - Document chunk saved with ID: 7e526883-1026-4368-bacf-82d477c5b774_headers_0
+2025-05-16 17:41:02 - doc_processor - INFO - Processing document: Shahzaib Hassan Cotract Letter 2025 (1).pdf
+2025-05-16 17:41:03 - doc_processor - INFO - Document metadata saved to Firestore with ID: d262d3be-6b23-4981-9def-c1838550f2ba
+2025-05-16 17:41:03 - doc_processor - INFO - Document chunk saved with ID: d262d3be-6b23-4981-9def-c1838550f2ba_pages_0
+2025-05-16 17:41:04 - doc_processor - INFO - Document chunk saved with ID: d262d3be-6b23-4981-9def-c1838550f2ba_paragraphs_0
+2025-05-16 17:41:04 - doc_processor - ERROR - Error processing document: range() arg 3 must not be zero
+2025-05-16 17:41:04 - doc_processor - ERROR - Document processing error: Failed to process document: range() arg 3 must not be zero
+2025-05-16 17:42:22 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:42:22 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:42:23 - doc_processor - INFO - Starting application...
+2025-05-16 17:42:23 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:42:23 - doc_processor - INFO - Application started successfully
+2025-05-16 17:42:27 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:42:27 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:42:28 - doc_processor - INFO - Starting application...
+2025-05-16 17:42:28 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:42:28 - doc_processor - INFO - Application started successfully
+2025-05-16 17:42:31 - doc_processor - INFO - Processing document: Shahzaib Hassan Cotract Letter 2025 (1).pdf
+2025-05-16 17:42:34 - doc_processor - INFO - Document metadata saved to Firestore with ID: c1b08051-1659-46d7-839a-2da64073411e
+2025-05-16 17:42:35 - doc_processor - INFO - Document chunk saved with ID: c1b08051-1659-46d7-839a-2da64073411e_pages_0
+2025-05-16 17:42:36 - doc_processor - INFO - Document chunk saved with ID: c1b08051-1659-46d7-839a-2da64073411e_paragraphs_0
+2025-05-16 17:42:36 - doc_processor - INFO - Document chunk saved with ID: c1b08051-1659-46d7-839a-2da64073411e_tables_0
+2025-05-16 17:43:50 - doc_processor - INFO - Processing document: Private Pilot Certificate - Stage 1 (1).docx
+2025-05-16 17:43:54 - doc_processor - INFO - Document metadata saved to Firestore with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00
+2025-05-16 17:43:55 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_pages_0
+2025-05-16 17:43:56 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_0
+2025-05-16 17:43:57 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_1
+2025-05-16 17:43:57 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_2
+2025-05-16 17:43:58 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_3
+2025-05-16 17:43:59 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_4
+2025-05-16 17:44:00 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_5
+2025-05-16 17:44:01 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_6
+2025-05-16 17:44:02 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_7
+2025-05-16 17:44:03 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_8
+2025-05-16 17:44:04 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_9
+2025-05-16 17:44:04 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_10
+2025-05-16 17:44:05 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_11
+2025-05-16 17:44:07 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_12
+2025-05-16 17:44:07 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_13
+2025-05-16 17:44:08 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_14
+2025-05-16 17:44:09 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_15
+2025-05-16 17:44:10 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_16
+2025-05-16 17:44:11 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_17
+2025-05-16 17:44:12 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_18
+2025-05-16 17:44:13 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_19
+2025-05-16 17:44:14 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_20
+2025-05-16 17:44:14 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_21
+2025-05-16 17:44:15 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_paragraphs_22
+2025-05-16 17:44:16 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_headers_0
+2025-05-16 17:44:17 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_tables_0
+2025-05-16 17:44:18 - doc_processor - INFO - Document chunk saved with ID: bbdbaeb7-9527-4771-bba2-2cc98403cd00_tables_1
+2025-05-16 17:44:44 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:44:44 - doc_processor - INFO - Application shutdown completed
+2025-05-16 17:44:45 - doc_processor - INFO - Starting application...
+2025-05-16 17:44:45 - doc_processor - INFO - Firebase initialized successfully
+2025-05-16 17:44:45 - doc_processor - INFO - Application started successfully
+2025-05-16 17:44:47 - doc_processor - INFO - Shutting down application...
+2025-05-16 17:44:47 - doc_processor - INFO - Application shutdown completed
