@@ -49,90 +49,103 @@ class DocumentProcessorService:
         """Extract text and structure from a PDF document."""
         try:
             pdf_reader = PdfReader(io.BytesIO(file_content))
-            extracted_data = {"paragraphs": [], "tables": [], "headers": [], "pages": []}
-            
+            extracted_data = {
+                "paragraphs": [],
+                "tables": [],
+                "headers": [],
+                "pages": [],
+            }
+
             paragraph_index = 0
-            
+
             for page_num, page in enumerate(pdf_reader.pages, 1):
                 text = page.extract_text()
-                
+
                 # Split text into paragraphs based on double newlines and strip whitespace
-                paragraphs = [p.strip() for p in text.split('\n\n') if p.strip()]
-                
+                paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
+
                 # Process each paragraph
                 for para in paragraphs:
                     # Skip very short lines or empty lines
                     if len(para) < 2:
                         continue
-                        
+
                     # Simple heuristic for headers:
                     # 1. All caps
                     # 2. Less than 100 characters
                     # 3. No punctuation except : , -
                     is_heading = (
-                        para.isupper() and 
-                        len(para) < 100 and 
-                        all(c.isalnum() or c in ':-,' or c.isspace() for c in para)
+                        para.isupper()
+                        and len(para) < 100
+                        and all(c.isalnum() or c in ":-," or c.isspace() for c in para)
                     )
-                    
+
                     # Add to paragraphs
-                    extracted_data["paragraphs"].append({
-                        "text": str(para),
-                        "index": str(paragraph_index),
-                        "is_heading": str(is_heading).lower()
-                    })
-                    
+                    extracted_data["paragraphs"].append(
+                        {
+                            "text": str(para),
+                            "index": str(paragraph_index),
+                            "is_heading": str(is_heading).lower(),
+                        }
+                    )
+
                     # If it's a heading, add to headers
                     if is_heading:
-                        extracted_data["headers"].append({
-                            "level": "1",  # Default level for PDF headers
-                            "text": str(para),
-                            "index": str(paragraph_index)
-                        })
-                    
+                        extracted_data["headers"].append(
+                            {
+                                "level": "1",  # Default level for PDF headers
+                                "text": str(para),
+                                "index": str(paragraph_index),
+                            }
+                        )
+
                     paragraph_index += 1
-                
+
                 # Add page information with cleaned content
                 page_content = text.strip()
                 if page_content:  # Only add non-empty pages
-                    extracted_data["pages"].append({
-                        "page_number": str(page_num),
-                        "content": str(page_content)
-                    })
-                
+                    extracted_data["pages"].append(
+                        {"page_number": str(page_num), "content": str(page_content)}
+                    )
+
                 # Try to detect tables (basic detection based on consistent spacing)
-                lines = text.split('\n')
+                lines = text.split("\n")
                 table_candidates = []
                 current_table = []
-                
+
                 for line in lines:
                     # If line has multiple spaces or tabs, it might be a table row
-                    if line.strip() and ('  ' in line or '\t' in line):
+                    if line.strip() and ("  " in line or "\t" in line):
                         current_table.append(line.split())
                     elif current_table:
                         if len(current_table) > 1:  # Minimum 2 rows for a table
                             table_candidates.append(current_table)
                         current_table = []
-                
+
                 # Add detected tables
                 for i, table in enumerate(table_candidates):
                     table_index = len(extracted_data["tables"])
-                    extracted_data["tables"].append({
-                        "table_index": str(table_index),
-                        "rows": [
-                            {
-                                "row_index": str(row_idx),
-                                "cells": [
-                                    {"cell_index": str(cell_idx), "value": str(cell)}
-                                    for cell_idx, cell in enumerate(row)
-                                ]
-                            }
-                            for row_idx, row in enumerate(table)
-                        ]
-                    })
-            
+                    extracted_data["tables"].append(
+                        {
+                            "table_index": str(table_index),
+                            "rows": [
+                                {
+                                    "row_index": str(row_idx),
+                                    "cells": [
+                                        {
+                                            "cell_index": str(cell_idx),
+                                            "value": str(cell),
+                                        }
+                                        for cell_idx, cell in enumerate(row)
+                                    ],
+                                }
+                                for row_idx, row in enumerate(table)
+                            ],
+                        }
+                    )
+
             return extracted_data
-            
+
         except Exception as e:
             logger.error(f"Error extracting data from PDF: {e}")
             raise ValueError(f"Failed to extract data from PDF: {str(e)}")
@@ -238,9 +251,13 @@ class DocumentProcessorService:
 
             # Extract content based on file type
             if file_extension == "pdf":
-                extracted_data = DocumentProcessorService._extract_data_from_pdf(file_content)
+                extracted_data = DocumentProcessorService._extract_data_from_pdf(
+                    file_content
+                )
             else:
-                extracted_data = DocumentProcessorService._extract_data_from_docx(file_content)
+                extracted_data = DocumentProcessorService._extract_data_from_docx(
+                    file_content
+                )
 
             # Create base document metadata with full content
             base_doc = {
@@ -259,8 +276,8 @@ class DocumentProcessorService:
                     "pages": extracted_data["pages"],
                     "headers": extracted_data["headers"],
                     "paragraphs": extracted_data["paragraphs"],
-                    "tables": extracted_data["tables"]
-                }
+                    "tables": extracted_data["tables"],
+                },
             }
 
             # Save document metadata
@@ -270,14 +287,20 @@ class DocumentProcessorService:
             chunk_configs = {
                 "pages": (extracted_data["pages"], 50),
                 "paragraphs": (extracted_data["paragraphs"], 100),
-                "headers": (extracted_data["headers"], max(1, len(extracted_data["headers"]))),  # Ensure non-zero
-                "tables": (extracted_data["tables"], max(1, min(10, len(extracted_data["tables"])))),  # Ensure non-zero and reasonable
+                "headers": (
+                    extracted_data["headers"],
+                    max(1, len(extracted_data["headers"])),
+                ),  # Ensure non-zero
+                "tables": (
+                    extracted_data["tables"],
+                    max(1, min(10, len(extracted_data["tables"]))),
+                ),  # Ensure non-zero and reasonable
             }
 
             for content_type, (content, chunk_size) in chunk_configs.items():
                 if content:  # Only process if there's content
                     total_chunks = max(1, (len(content) + chunk_size - 1) // chunk_size)
-                    
+
                     for i in range(0, len(content), max(1, chunk_size)):
                         chunk = content[i : i + chunk_size]
                         if chunk:  # Only save if chunk has content
@@ -312,8 +335,16 @@ class DocumentProcessorService:
                         if extracted_data["pages"]
                         else ""
                     ),
-                    headers=[h["text"] for h in extracted_data["headers"][:10]] if extracted_data["headers"] else [],
-                    first_paragraphs=[p["text"] for p in extracted_data["paragraphs"][:5]] if extracted_data["paragraphs"] else [],
+                    headers=(
+                        [h["text"] for h in extracted_data["headers"][:10]]
+                        if extracted_data["headers"]
+                        else []
+                    ),
+                    first_paragraphs=(
+                        [p["text"] for p in extracted_data["paragraphs"][:5]]
+                        if extracted_data["paragraphs"]
+                        else []
+                    ),
                 ),
             )
 

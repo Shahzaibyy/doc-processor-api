@@ -32,7 +32,6 @@ class Settings(BaseSettings):
 
     FIREBASE_COLLECTION_NAME: str = "processed_documents"
 
-
     # Document processing settings
     MAX_UPLOAD_SIZE: int = 10 * 1024 * 1024  # 10MB
     ALLOWED_EXTENSIONS: List[str] = [".docx", ".pdf"]
